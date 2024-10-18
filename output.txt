@@ -1,6 +1,1 @@
-Outer loop.
-5
-Outer loop.
-10
-Outer loop.
-15
+Enter a positive integer: NONE
