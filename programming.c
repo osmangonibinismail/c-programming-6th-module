@@ -90,7 +90,7 @@
 //     } else {
 //         printf("Other Generation\n");
 //     }
-    
+
 //     return 0;
 // }
 
@@ -111,13 +111,13 @@
 //     scanf("%d", &N);
 
 //     int ones = count_ones(N);
-    
+
 //     if (ones % 2 == 0) {
 //         printf("%d is an Evil number.\n", N);
 //     } else {
 //         printf("%d is an Odious number.\n", N);
 //     }
-    
+
 //     return 0;
 // }
 
@@ -163,13 +163,9 @@
 //     } else {
 //         printf("NONE\n");
 //     }
-    
+
 //     return 0;
 // }
-
-
-
-
 
 // #include <stdio.h>
 // int main()
@@ -207,22 +203,114 @@
 
 //     return 0;
 // }
-#include <stdio.h>
-int main()
-{
-    int n;
+// #include <stdio.h>
+// int main()
+// {
+//     int n;
 
-    scanf("%d", &n);
+//     scanf("%d", &n);
 
-    for (int j = 100; j >= n; j--)
-    {
-        for (int i = 1; i <= 10; i++)
-        {
-            printf("%d * %3d = %3d\n", j, i, j * i);
+//     for (int j = 100; j >= n; j--)
+//     {
+//         for (int i = 1; i <= 10; i++)
+//         {
+//             printf("%d * %3d = %3d\n", j, i, j * i);
+//         }
+
+//         printf("\n\n");
+//     }
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int n;
+//     scanf("%d", &n);
+
+//     int evenCount = 0;
+//     int oddCount = 0;
+//     int positiveCount = 0;
+//     int negativeCount = 0;
+
+//     for (int i = 0; i < n; i++)
+//     {
+
+//         int x;
+//         scanf("%d", &x);
+//         if (x % 2 == 0)
+//         {
+//             // even
+//             evenCount++;
+//         }
+//         else
+//         {
+//             // odd
+//             oddCount++;
+//         }
+
+//         if (x > 0)
+//         {
+//             // positive
+//             positiveCount++;
+//         }
+//         else if (x < 0)
+//         {
+//             // negative
+//             negativeCount++;
+//         }
+//     }
+
+//     printf("Even: %d\n", evenCount);
+//     printf("Odd: %d\n", oddCount);
+//     printf("Positive: %d\n", positiveCount);
+//     printf("Negative: %d\n", negativeCount);
+
+// }
+
+
+// #include<stdio.h>
+// int main(){
+    
+//     for(int i = 1; i <= 300; i++){
+//         printf("checking %d\n", i);
+
+//         if(i % 2 == 0 && i % 3 == 0 && i % 5 == 0){
+//             printf("%d is the number\n", i);
+//         }
+//     }
+
+// }
+/*break */
+// #include<stdio.h>
+// int main(){
+    
+//     for(int i = 100; i <= 300; i++){
+//         printf("checking %d\n", i);
+
+//         if(i % 2 == 0 && i % 3 == 0 && i % 5 == 0){
+//             printf("%d is the number\n", i);
+//             break;
+//         }
+//     }
+
+// }
+#include<stdio.h>
+int main(){
+    
+    for(int i = 1; i <= 10; i++){
+        printf("checking %d\n", i);
+
+        printf("print num 1 \n");
+        printf("print num 2 \n");
+        printf("print num 3 \n");
+
+        if(i == 7){
+            break;
         }
-
-        printf("\n\n");
+        printf("print num 4 \n");
+        
     }
 
-    return 0;
 }
