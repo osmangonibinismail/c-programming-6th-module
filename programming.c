@@ -296,21 +296,171 @@
 //     }
 
 // }
+// #include<stdio.h>
+// int main(){
+    
+//     for(int i = 1; i <= 10; i++){
+//         printf("checking %d\n", i);
+
+//         printf("print num 1 \n");
+//         printf("print num 2 \n");
+//         printf("print num 3 \n");
+
+//         if(i == 7){
+//             break;
+//         }
+//         printf("print num 4 \n");
+        
+//     }
+
+// }
+
+//continue
+// #include<stdio.h>
+// int main(){
+    
+//     for(int i = 1; i <= 10; i++){
+//         printf("checking %d\n", i);
+
+//         printf("print num 1 \n");
+//         printf("print num 2 \n");
+//         printf("print num 3 \n");
+
+//         if(i == 7){
+//             continue;
+//         }
+//         printf("print num 4 \n");
+        
+//     }
+
+
+// #include<stdio.h>
+// int main(){
+    
+//     for(int i = 100; i <= 200; i++){
+//         printf("checking %d\n", i);
+
+//         if(i % 2 == 0 && i % 3 == 0 && i % 5 == 0){
+//             printf("%d is the number\n", i);
+//             continue;;
+//         }
+//     }
+
+//     printf("Outside loop\n");
+
+//     return 0;
+
+// }
+
+// #include <stdio.h>
+// int main(){
+//     int t;
+//     scanf("%d", &t);
+
+//     for(int i = 0; i < t; i++)
+//     {
+//         int n;
+//         scanf("%d", &n);
+
+//         while(n > 0){
+
+//             int digit = n % 10;
+//             printf("%d %d \n", n , digit);
+
+//             n /= 10;
+//         }
+//         printf("\n");
+//     }
+
+//     return 0;
+// }
+// #include <stdio.h>
+// int main(){
+//     int t;
+//     scanf("%d", &t);
+
+//     for(int i = 0; i < t; i++)
+//     {
+//         int n;
+//         scanf("%d", &n);
+
+//         if(n == 0){
+//             printf("0");
+//         }
+
+//         while(n > 0){
+
+//             int digit = n % 10;
+//             printf("%d ", digit);
+
+//             n /= 10;
+//         }
+//         printf("\n");
+//     }
+
+//     return 0;
+// }
+
+
+/*
+1
+1 2
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+*/
+
+// #include<stdio.h>
+// int main(){
+    
+//     for(int i = 1; i <= 7; i++)
+//     {
+//         // printf("%d ", i)
+        
+//         for(int j = 1; j <= i; j++){
+//             printf("%d ", j);
+//         }
+
+//         printf("\n");
+
+
+//     }
+
+//     return 0;
+// }
+// #include<stdio.h>
+// int main(){
+    
+//     for(int i = 1; i <= 7; i++)
+//     {
+//         // printf("%d ", i)
+        
+//         for(int j = 1; j <= i; j++){
+//             printf("* ");
+//         }
+
+//         printf("\n");
+
+
+//     }
+
+//     return 0;
+// }
 #include<stdio.h>
 int main(){
     
-    for(int i = 1; i <= 10; i++){
-        printf("checking %d\n", i);
-
-        printf("print num 1 \n");
-        printf("print num 2 \n");
-        printf("print num 3 \n");
-
-        if(i == 7){
-            break;
-        }
-        printf("print num 4 \n");
+    for(int i = 1; i <= 7; i++)
+    {
+        // printf("%d ", i)
         
+        for(int j = i; j >= 1; j--){
+            printf("%d ", j);
+        }
+
+        printf("\n");
+
+
     }
 
+    return 0;
 }
